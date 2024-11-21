@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PR0XLD - Gaming Hub</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>PR0XLD</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Games</a>
+            <a href="#" onclick="openProxyModal()">Proxy</a>
+            <a href="#" onclick="openPartnerModal()">Partners</a>
+        </nav>
+        <input type="text" id="search" placeholder="Search games..." oninput="filterGames()">
+        <button onclick="window.open('https://discord.gg/cv7FVeTvTM', '_blank')">PR0XLD DISCORD</button>
+    </header>
+
+    <div class="game-container" id="gameContainer"></div>
+
+    <footer>
+        <p>© 2024 PR0XLD. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
